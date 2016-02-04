@@ -7,11 +7,14 @@
         </label>
     </div>
 
-    <div class="checkbox" ng-repeat="answer in VM.questions" ng-if="VM.Question.question_type == 'mutiplechoice-multiple'">
+    <div class="checkbox" ng-repeat="answer in VM.questions"
+         ng-if="VM.Question.question_type == 'mutiplechoice-multiple'"
+    ng-class="{'alert alert-success' : VM.result}">
         <label>
             <input type="checkbox" name="answer" ng-value="answer" ng-click="VM.setAnswer(answer)">
-            {{ answer.caption }}
+            {{ answer.a_id }} {{ answer.caption }}
         </label>
     </div>
 
+    <button class="btn btn-lg btn-success btn-block" ng-click="VM.answerQuestion()">Answer</button>
 </div>

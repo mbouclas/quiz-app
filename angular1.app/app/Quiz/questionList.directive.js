@@ -3,7 +3,7 @@
         .directive('questionList', questionList);
 
     questionList.$inject = ['configuration'];
-    questionListController.$inject = ['$scope','quiz.service'];
+    questionListController.$inject = ['$scope','quiz.service','$location'];
 
     function questionList(Config) {
         return {
@@ -24,16 +24,42 @@
         };
     }
 
-    function questionListController($scope,Quiz) {
+    function questionListController($scope,Quiz,$location) {
         var vm = _this = this;
-        vm.questions = $scope.question.possible_answers;
-        vm.Question = $scope.question;
-        this.answerSelected = null;
+
+        reset();
 
         vm.setAnswer = function (answer) {
+            if (vm.Question.question_type == 'mutiplechoice-single'){
+                _this.answerSelected = answer;
+                return;
+            }
+
+            if (_this.answerSelected.indexOf(answer) != -1){
+                _this.answerSelected.splice(_this.answerSelected.indexOf(answer),1);
+                return;
+            }
+
+            _this.answerSelected.push(answer);
+        };
+
+        vm.answerQuestion = function () {
+            if (!_this.answerSelected){
+                return;
+            }
             //validate answer
-            var validate = Quiz.validateAnswer(answer);
-            _this.answerSelected = answer;
+            var validate = Quiz.validateAnswer(_this.answerSelected,vm.Question);
+            console.log(validate);
+            if (!validate){
+
+            }
+        };
+
+        function reset() {
+            vm.questions = $scope.question.possible_answers;
+            vm.Question = $scope.question;
+            _this.answerSelected = (vm.Question.question_type == 'mutiplechoice-single') ? null : [];
+            $location.search('q',vm.Question.q_id);
         }
     }
 

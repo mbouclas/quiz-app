@@ -5,9 +5,10 @@ Controller.$inject = ['quiz','quiz.service'];
 
 function Controller(QuizData,Quiz){
     var vm = this;
-    vm.progress = 0;
     vm.Quiz = QuizData;
-    vm.Question = vm.Quiz.questions[Quiz.currentQuestion];
+    vm.Question = vm.Quiz.questions[4];
+    //vm.Question = vm.Quiz.questions[Quiz.currentQuestion];
+    vm.progress = Quiz.currentQuizProgress();
 
 
     vm.answer = function () {

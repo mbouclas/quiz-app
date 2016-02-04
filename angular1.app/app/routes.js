@@ -15,6 +15,7 @@ function config(Config, $routeProvider) {
                     return Mock.fetchQuiz();
                 }]
             },
+            reloadOnSearch: false,
             name: 'home'
         })
         .otherwise('/');
