@@ -4,5 +4,7 @@
 
     require('./quiz.service');
     require('./questionList.directive');
+    require('./QuizController');
+    require('./ResultsController');
 
 })();

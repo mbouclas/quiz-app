@@ -1,0 +1,28 @@
+<h1>{{ VM.Quiz.title }}</h1>
+<p>{{ VM.Quiz.description }}</p>
+<div class="row">
+    <div class="col-md-6"><h3>{{ VM.progress }}% complete.</h3></div>
+    <div class="col-md-6 text-md-right"><small>{{ VM.Points }} points collected</small></div>
+</div>
+
+<progress class="progress progress-success" value="{{ VM.progress }}" max="100">{{ VM.progress }}%</progress>
+<div class="alert alert-success" ng-if="VM.result">
+    <h1>Correct!!! <small>+{{ VM.Question.points }} points</small></h1>
+</div>
+<div class="alert alert-danger" ng-if="VM.result === false">
+    <h1>Ooops!!! <small>Better luck on the next one...</small></h1>
+</div>
+<div class="card">
+    <div class="text-lg-center">
+        <img ng-src="{{ VM.Question.img }}" style="width: auto; height: auto;max-width: 50%;max-height: 50%; align-self: center">
+    </div>
+    <div class="card-block">
+        <h4 class="card-title">{{ VM.Question.title }}</h4>
+    </div>
+
+    <div class="card-footer">
+        <question-list ng-model="VM.Question" on-answer="VM.onAnswer(result)"></question-list>
+    </div>
+
+
+</div>

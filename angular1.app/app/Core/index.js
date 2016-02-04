@@ -6,4 +6,3 @@ function run(){
 require('./core.config');
 require('./core.logger');
 require('./core.services');
-require('./HomeController');

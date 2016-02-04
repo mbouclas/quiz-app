@@ -1,0 +1,37 @@
+{
+  "quiz_id": 12,
+  "results": [
+    {
+      "r_id": 1,
+      "minpoints": 0,
+      "maxpoints": 25,
+      "title": "You're a Hodor-level expert.",
+      "message": "You may not know everything about the game of thrones, but you're definitely down to stick around for the ride. Hodor!",
+      "img": "http://hodorscopes.com/img/hodor-v2.png"
+    },
+    {
+      "r_id": 2,
+      "minpoints": 26,
+      "maxpoints": 50,
+      "title": "You're as smart as one of Khaleesi's dragons!",
+      "message": "You're smart and fiery. While the rest of the crowd is playing the game, you're studying everyone's moves. Well played, dragon!",
+      "img": "http://img2.wikia.nocookie.net/__cb20140404211220/gameofthrones/images/1/16/DrogonHD.jpg"
+    },
+    {
+      "r_id": 3,
+      "minpoints": 51,
+      "maxpoints": 75,
+      "title": "You've got Cersei-level realness!",
+      "message": "Clever girl. While your brothers may get all the public glory, you're the one behind the scenes who's actually running the show. I'm afraid of you, to be honest.",
+      "img": "http://img2.wikia.nocookie.net/__cb20130307195729/gameofthrones/images/e/ef/Cersei_Season_3.jpg"
+    },
+    {
+      "r_id": 4,
+      "minpoints": 76,
+      "maxpoints": 100,
+      "title": "You totally know everything, Varys.",
+      "message": "Other people better bow down, because you've got a network of spies across two continents who tell you EVERYONE'S dirty little secrets. You're not just smart, but you're also the best at manipulating people into giving you what you want.",
+      "img": "http://www.gameof-thrones.fr/wp-content/uploads/2011/07/varys.jpg"
+    }
+  ]
+}
