@@ -1,0 +1,387 @@
+{
+  "quiz_id": 13,
+  "title": "Game of Thrones Trivia Quiz: How well do you know Season 4?",
+  "description": "All men must die, but not before you prove how much you really love A Song of Ice and Fire.",
+  "questions": [
+    {
+      "q_id": 1,
+      "title": "What Are The Names Of The Two Valyrian Steel Swords Forged By Tywin Lannister And Given To Jaime And Joffrey?",
+      "img": "http://cdn.hbowatch.com/wp-content/uploads/2012/07/Stark-with-ice.jpg",
+      "question_type": "mutiplechoice-single",
+      "possible_answers": [
+        {
+          "a_id": 1,
+          "caption": "Widow's Wail And Kingslayer"
+        },
+        {
+          "a_id": 2,
+          "caption": "Oathkeeper and Widow's Wail"
+        },
+        {
+          "a_id": 3,
+          "caption": "Brightroar and Longclaw"
+        },
+        {
+          "a_id": 4,
+          "caption": "Oathkeeper and Ice"
+        }
+      ],
+      "correct_answer": 2,
+      "points": 2
+    },
+    {
+      "q_id": 2,
+      "title": "Ser Dontos Gave Sansa A Poisoned Necklace",
+      "img": "http://awoiaf.westeros.org/images/thumb/2/22/Dontos_HBO.jpg/250px-Dontos_HBO.jpg",
+      "question_type": "truefalse",
+      "correct_answer": true,
+      "points": 1
+    },
+    {
+      "q_id": 3,
+      "title": "Littlefinger Has Only Loved One Woman, Who?",
+      "img": "http://media.tumblr.com/39928d5e7df1a38c11b89f6e1ae594c0/tumblr_inline_mj7a4sczua1qz4rgp.png",
+      "question_type": "mutiplechoice-single",
+      "possible_answers": [
+        {
+          "a_id": 7,
+          "caption": "Catelyn Stark"
+        },
+        {
+          "a_id": 8,
+          "caption": "Walda Frey"
+        },
+        {
+          "a_id": 9,
+          "caption": "Lisa Arryn"
+        },
+        {
+          "a_id": 10,
+          "caption": "Cersei Lannister"
+        }
+      ],
+      "correct_answer": 7,
+      "points": 1
+    },
+    {
+      "q_id": 4,
+      "title": "What Is The Name Of King Tommen's Kitten?",
+      "img": "http://i.embed.ly/1/display/resize?key=1e6a1a1efdb011df84894040444cdc60&url=http%3A%2F%2Fpbs.twimg.com%2Fmedia%2FBmbQeXJCMAAAVy9.jpg",
+      "question_type": "mutiplechoice-single",
+      "possible_answers": [
+        {
+          "a_id": 11,
+          "caption": "Cashew"
+        },
+        {
+          "a_id": 12,
+          "caption": "Patchface"
+        },
+        {
+          "a_id": 13,
+          "caption": "Ser Pounce"
+        },
+        {
+          "a_id": 14,
+          "caption": "Whiskers"
+        }
+      ],
+      "correct_answer": 13,
+      "points": 3
+    },
+    {
+      "q_id": 5,
+      "title": "Daario Naharis And Grey Worm Command These Two Groups",
+      "img": "http://img2.wikia.nocookie.net/__cb20130429062009/gameofthrones/images/b/b7/Grey_Warm.png",
+      "question_type": "mutiplechoice-multiple",
+      "possible_answers": [
+        {
+          "a_id": 15,
+          "caption": "The Second Sons"
+        },
+        {
+          "a_id": 16,
+          "caption": "The Mummers"
+        },
+        {
+          "a_id": 17,
+          "caption": "The Unsullied"
+        },
+        {
+          "a_id": 18,
+          "caption": "The Golden Company"
+        }
+      ],
+      "correct_answer": [15, 17],
+      "points": 1
+    },
+    {
+      "q_id": 6,
+      "title": "The Red Viper Has How Many Children?",
+      "img": "http://img1.wikia.nocookie.net/__cb20140410141001/gameofthrones/images/9/94/Oberyn-Martell-family-tree.jpg",
+      "question_type": "mutiplechoice-single",
+      "possible_answers": [
+        {
+          "a_id": 19,
+          "caption": "7"
+        },
+        {
+          "a_id": 20,
+          "caption": "9"
+        },
+        {
+          "a_id": 21,
+          "caption": "Too many"
+        },
+        {
+          "a_id": 22,
+          "caption": "8"
+        }
+      ],
+      "correct_answer": 22,
+      "points": 1
+    },
+    {
+      "q_id": 7,
+      "title": "Who Was The Leader Of The Mutineers At Craster's Keep?",
+      "img": "http://img2.wikia.nocookie.net/__cb20140508161110/gameofthrones/images/thumb/6/67/Karl-Tanner-405.jpg/250px-Karl-Tanner-405.jpg",
+      "question_type": "mutiplechoice-single",
+      "possible_answers": [
+        {
+          "a_id": 23,
+          "caption": "Karl"
+        },
+        {
+          "a_id": 24,
+          "caption": "Locke"
+        },
+        {
+          "a_id": 25,
+          "caption": "Grenn"
+        },
+        {
+          "a_id": 26,
+          "caption": "Rast"
+        }
+      ],
+      "correct_answer": 23,
+      "points": 1
+    },
+    {
+      "q_id": 8,
+      "title": "Daavos Convinced These Two People To Help Stannis",
+      "img": "http://i.lv3.hbo.com/assets/images/series/game-of-thrones/character/s2/davos-seaworth-1024.jpg",
+      "question_type": "mutiplechoice-multiple",
+      "possible_answers": [
+        {
+          "a_id": 27,
+          "caption": "Axell Florent"
+        },
+        {
+          "a_id": 28,
+          "caption": "Salladhor Saan"
+        },
+        {
+          "a_id": 29,
+          "caption": "Gendry"
+        },
+        {
+          "a_id": 30,
+          "caption": "Tycho Nestoris"
+        }
+      ],
+      "correct_answer": [28,30],
+      "points": 1
+    },
+    {
+      "q_id": 9,
+      "title": "Which Names Has Arya Taken Off Her Kill List?",
+      "img": "http://borgdotcom.files.wordpress.com/2011/11/arya-stark.jpg",
+      "question_type": "mutiplechoice-multiple",
+      "possible_answers": [
+        {
+          "a_id": 31,
+          "caption": "Jaqen H'ghar"
+        },
+        {
+          "a_id": 32,
+          "caption": "The Biter"
+        },
+        {
+          "a_id": 33,
+          "caption": "Ilyn Payne"
+        },
+        {
+          "a_id": 34,
+          "caption": "Polliver"
+        },
+        {
+          "a_id": 35,
+          "caption": "Rorge"
+        }
+      ],
+      "correct_answer": [32, 34, 35],
+      "points": 1
+    },
+    {
+      "q_id": 10,
+      "title": "Which Character Did Not Die This Season?",
+      "img": "http://images6.fanpop.com/image/photos/36900000/Margaery-Tyrell-and-Joffrey-Baratheon-Season-4-margaery-tyrell-36940346-2100-1398.jpg",
+      "question_type": "mutiplechoice-single",
+      "possible_answers": [
+        {
+          "a_id": 36,
+          "caption": "Ygritte"
+        },
+        {
+          "a_id": 37,
+          "caption": "Talisa"
+        },
+        {
+          "a_id": 38,
+          "caption": "Lysa Arryn"
+        },
+        {
+          "a_id": 39,
+          "caption": "Joffrey"
+        }
+      ],
+      "correct_answer": 37,
+      "points": 2
+    },
+    {
+      "q_id": 11,
+      "title": "Brienne and Podrick Meet This Character At The Inn At The Crossroads:",
+      "img": "http://static.tvtropes.org/pmwiki/pub/images/hot_pie_9829.jpg",
+      "question_type": "mutiplechoice-single",
+      "possible_answers": [
+        {
+          "a_id": 40,
+          "caption": "Gendry"
+        },
+        {
+          "a_id": 41,
+          "caption": "Beric Dondarrion"
+        },
+        {
+          "a_id": 42,
+          "caption": "Hot Pie"
+        },
+        {
+          "a_id": 43,
+          "caption": "Jaqen H'ghar"
+        }
+      ],
+      "correct_answer": 42,
+      "points": 2
+    },
+    {
+      "q_id": 12,
+      "title": "Bronn Is Set To Marry:",
+      "img": "http://i.lv3.hbo.com/assets/images/series/game-of-thrones/character/s3/bronn-1024.jpg",
+      "question_type": "mutiplechoice-single",
+      "possible_answers": [
+        {
+          "a_id": 44,
+          "caption": "Lollys Stokeworth"
+        },
+        {
+          "a_id": 45,
+          "caption": "Jeyne Westerling"
+        },
+        {
+          "a_id": 46,
+          "caption": "Jeyne Poole"
+        },
+        {
+          "a_id": 47,
+          "caption": "Walda Frey"
+        }
+      ],
+      "correct_answer": 44,
+      "points": 1
+    },
+    {
+      "q_id": 13,
+      "title": "In The 'War Of The Five Kings,' Who Is Still Alive?",
+      "img": "http://images5.fanpop.com/image/photos/30500000/Renly-Baratheon-house-baratheon-30540977-500-400.png",
+      "question_type": "mutiplechoice-multiple",
+      "possible_answers": [
+        {
+          "a_id": 48,
+          "caption": "Joffrey Baratheon"
+        },
+        {
+          "a_id": 49,
+          "caption": "Stannis Baratheon"
+        },
+        {
+          "a_id": 50,
+          "caption": "Renly Baratheon"
+        },
+        {
+          "a_id": 51,
+          "caption": "Robb Stark"
+        },
+        {
+          "a_id": 52,
+          "caption": "Balon Greyjoy"
+        }
+      ],
+      "correct_answer": [49, 52],
+      "points": 2
+    },
+    {
+      "q_id": 14,
+      "title": "Which City Did Daenerys Free In Season 4?",
+      "img": "http://feministfiction.com/wp-content/uploads/2012/07/Daenerys-Targaryen-game-of-thrones-23107710-1600-1200.jpeg",
+      "question_type": "mutiplechoice-single",
+      "possible_answers": [
+        {
+          "a_id": 53,
+          "caption": "Astapor"
+        },
+        {
+          "a_id": 54,
+          "caption": "Meereen"
+        },
+        {
+          "a_id": 55,
+          "caption": "Braavos"
+        },
+        {
+          "a_id": 56,
+          "caption": "Yunkai"
+        }
+      ],
+      "correct_answer": 54,
+      "points": 1
+    },
+    {
+      "q_id": 15,
+      "title": "What Does Jon Snow Know?",
+      "img": "http://static.comicvine.com/uploads/original/11111/111114474/3870948-jon+snow.jpg",
+      "question_type": "mutiplechoice-single",
+      "possible_answers": [
+        {
+          "a_id": 57,
+          "caption": "Something"
+        },
+        {
+          "a_id": 58,
+          "caption": "Nothing"
+        },
+        {
+          "a_id": 59,
+          "caption": "Who he really is"
+        },
+        {
+          "a_id": 60,
+          "caption": "Himself"
+        }
+      ],
+      "correct_answer": 58,
+      "points": 1
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+<div>
+    {{ VM.answerSelected }}
+    <div class="radio" ng-repeat="answer in VM.questions" ng-if="VM.Question.question_type == 'mutiplechoice-single'">
+        <label>
+            <input type="radio" name="answer" ng-value="answer" ng-click="VM.setAnswer(answer)">
+            {{ answer.caption }}
+        </label>
+    </div>
+
+    <div class="checkbox" ng-repeat="answer in VM.questions" ng-if="VM.Question.question_type == 'mutiplechoice-multiple'">
+        <label>
+            <input type="checkbox" name="answer" ng-value="answer" ng-click="VM.setAnswer(answer)">
+            {{ answer.caption }}
+        </label>
+    </div>
+
+</div>

@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "angular": "^1.5.0-rc.2",
+    "angular-images-resizer": "^1.0.2",
     "angular-messages": "^1.5.0-rc.2",
     "angular-resource": "^1.5.0-rc.2",
     "angular-route": "^1.5.0-rc.2",
@@ -30,8 +31,8 @@
     "tether": "^1.1.1"
   },
   "scripts": {
-    "watch": "watchify ./entry.js -o ./bundle/bundle.js -v",
-    "serve": "http-server -a localhost -p 8000 -c-1",
-    "start": "concurrent \"npm run watch\" \"npm run serve\""
+    "watch-angular-1": "watchify ./angular1.app.js -o ./angular1.app/bundle/angular1.js -v",
+    "serve-angular-1": "http-server ./angular1.app -a localhost -p 8000 -c-1",
+    "start-angular-1": "concurrent \"npm run watch-angular-1\" \"npm run serve\""
   }
 }
