@@ -32,7 +32,7 @@
   },
   "scripts": {
     "watch-angular-1": "watchify ./angular1.app.js -o ./angular1.app/bundle/angular1.js -v",
-    "serve": "http-server ./angular1.app -a localhost -p 8000 -c-1",
+    "serve-angular-1": "http-server ./angular1.app -a localhost -p 8000 -c-1",
     "start-angular-1": "concurrent \"npm run watch-angular-1\" \"npm run serve\""
   }
 }
