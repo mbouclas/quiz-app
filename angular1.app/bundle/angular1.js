@@ -105,7 +105,7 @@ Controller.$inject = ['quiz','quiz.service','$timeout','$location'];
 function Controller(QuizData,Quiz,$timeout,$location){
     var vm = this;
     vm.Quiz = QuizData;
-    vm.Question = Quiz.loadQuestion(0);
+    vm.Question = Quiz.loadQuestion(14);
     vm.progress = Quiz.currentQuizProgress();
     vm.Points = Quiz.getPoints();
 
@@ -119,6 +119,7 @@ function Controller(QuizData,Quiz,$timeout,$location){
             vm.Question = Quiz.loadNextQuestion();
             if (vm.Question === true){//all done
                 Quiz.done = true;
+                Quiz.submitted = true;
                 $location.path('/results');
                 return;
             }
@@ -134,6 +135,7 @@ Controller.$inject = ['results','quiz.service','$timeout','$location'];
 
 function Controller(resultsData,Quiz,$timeout,$location){
     var vm = this;
+
     if (!Quiz.submitted){
         $location.path('/');
         return;
