@@ -6,7 +6,7 @@ Controller.$inject = ['quiz','quiz.service','$timeout','$location'];
 function Controller(QuizData,Quiz,$timeout,$location){
     var vm = this;
     vm.Quiz = QuizData;
-    vm.Question = Quiz.loadQuestion(14);
+    vm.Question = Quiz.loadQuestion();
     vm.progress = Quiz.currentQuizProgress();
     vm.Points = Quiz.getPoints();
 

@@ -24,15 +24,22 @@
     "angular-resource": "^1.5.0-rc.2",
     "angular-route": "^1.5.0-rc.2",
     "angular-sanitize": "^1.5.0-rc.2",
+    "babel-preset-react": "^6.3.13",
+    "babelify": "^7.2.0",
     "bootstrap": "^4.0.0-alpha.2",
     "font-awesome": "^4.5.0",
     "lodash": "^3.10.1",
     "moment": "^2.10.6",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
     "tether": "^1.1.1"
   },
   "scripts": {
     "watch-angular-1": "watchify ./angular1.app.js -o ./angular1.app/bundle/angular1.js -v",
     "serve-angular-1": "http-server ./angular1.app -a localhost -p 8000 -c-1",
-    "start-angular-1": "concurrent \"npm run watch-angular-1\" \"npm run serve\""
+    "start-angular-1": "concurrent \"npm run watch-angular-1\" \"npm run serve\"",
+    "watch-react": "watchify -t [ babelify --presets [ react ] ]  ./react.app.js -o ./react.app/bundle/react.js -v",
+    "serve-react": "http-server ./react.app -a localhost -p 8000 -c-1",
+    "start-react": "concurrent \"npm run watch-react\" \"npm run serve\""
   }
 }

@@ -1,9 +1,9 @@
 angular.module('mcms.core')
     .controller('ResultsController',Controller);
 
-Controller.$inject = ['results','quiz.service','$timeout','$location'];
+Controller.$inject = ['results','quiz.service','$location'];
 
-function Controller(resultsData,Quiz,$timeout,$location){
+function Controller(resultsData,Quiz,$location){
     var vm = this;
 
     if (!Quiz.submitted){
